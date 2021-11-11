@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <link href="CSS/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div class ="header">
+            <nav class="topnav">
+                <ul>
+                    <li><a href="page1.html">Layout</a></li>
+                    <li><a href="page2.html">NewContactForm</a></li>
+                    <li><a href="page3.html">ExistingContact</a></li>
+                </ul>
+            </nav>
+        </div>  
+
+        <div class="sidebar">
+            <strong>Contacts</strong>
+            <a href="#contact"><i class="fa fa-fw fa-envelope"></i> Create New Contact</a>
+            <a href="#clients"><i class="fa fa-fw fa-user"></i> Show Favorite</a>
+
+        </div>
+        <div class="content">
+            <div class="container">
+                <form action="/action_page.php">
+                    <div class="row">
+                      <div class="col-75">
+                        <a href="#adding picture"><i class="fa fa-user-circle fa-10x"style="font-size: 100px;color:gray"></i></a>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-75">
+                        <input type="text" id="contactN" name="contactName" placeholder="Contact Name">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-75">
+                        <input type="text" id="contactP" name="contactPhone" placeholder="Contact Phone">
+        
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-75">
+                          <input type="text" id="contactA" name="contatcAddress" placeholder="Contact Address">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-75">
+                        <input type="text" id="text" name="contactE" placeholder="Contact Email" ></input>
+                      </div>
+                    </div>
+                    <div class="row">
+                        <div class ="col-5">
+                            <input type="submit" value="Save Conact">
+                        </div>  
+
+                        <div class ="col-6">
+                            <input type="submit" value="Cancel">
+                        </div>
+                    </div>
+                  </form>
+            </div>
+        </div>
+        
+        
+        <div class = "footer">
+        </div>
+
+    </div>
+
+    
+</body>
+</html>
